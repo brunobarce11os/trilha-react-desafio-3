@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8001'
+    baseURL: 'https://didactic-space-orbit-g4777wgr7jgv3wjr6-8001.app.github.dev/'
 });
 
 export { api }
